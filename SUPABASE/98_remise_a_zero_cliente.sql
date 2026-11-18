@@ -3,7 +3,7 @@
 --
 -- Efface les ventes, retours, caisses, dépenses, crédits et le stock
 -- d'une seule patronne. Ne touche PAS à :
---   son compte, son e-mail, ses boutiques, son équipe, sa licence,
+--   son compte, son e-mail, ses boutiques, sa licence (et son équipe sauf choix),
 --   ni aux données des autres clientes.
 --
 -- Mode d'emploi (Supabase > SQL Editor > New query) :
@@ -22,6 +22,7 @@ declare
   v_email          text    := 'EMAIL_DE_LA_PATRONNE';
   garder_produits  boolean := true;   -- fiches produits, catégories, fournisseurs (le stock repart de 0)
   garder_clientes  boolean := false;  -- fiches des clientes (leurs crédits sont effacés)
+  garder_equipe    boolean := true;   -- employées et invitations (la patronne est toujours gardée)
 
   v_compte uuid;
   v_nb     int;
@@ -73,6 +74,12 @@ begin
     delete from products   where account_id = v_compte; get diagnostics n = row_count; insert into _bilan values ('Produits', n);
     delete from categories where account_id = v_compte; get diagnostics n = row_count; insert into _bilan values ('Catégories', n);
     delete from suppliers  where account_id = v_compte; get diagnostics n = row_count; insert into _bilan values ('Fournisseurs', n);
+  end if;
+
+  -- Équipe
+  if not garder_equipe then
+    delete from invitations where account_id = v_compte; get diagnostics n = row_count; insert into _bilan values ('Invitations', n);
+    delete from members where account_id = v_compte and role <> 'owner'; get diagnostics n = row_count; insert into _bilan values ('Employées', n);
   end if;
 
   insert into _bilan values ('OK : remise à zéro terminée', null);
