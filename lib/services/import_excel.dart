@@ -16,6 +16,7 @@ const colonnesModele = [
   'Quantité en stock',
   'Alerte stock bas',
   'Date de péremption',
+  'Photo (lien)',
 ];
 
 /// Une ligne du fichier, prête à être importée (ou avec ses erreurs).
@@ -33,6 +34,7 @@ class LigneImport {
     this.stock,
     this.stockMin,
     this.peremption,
+    this.photo,
     this.erreurs = const [],
   });
 
@@ -41,6 +43,9 @@ class LigneImport {
   final String? marque, variante, categorie, codeBarres;
   final int? prixAchat, prixVente, prixGros, stock, stockMin;
   final DateTime? peremption;
+
+  /// Lien (http/https) vers la photo du produit, si le fichier en donne un.
+  final String? photo;
   final List<String> erreurs;
 
   bool get valide => erreurs.isEmpty;
@@ -65,6 +70,7 @@ Uint8List modeleExcel() {
     const IntCellValue(12),
     const IntCellValue(3),
     const DateCellValue(year: 2027, month: 6, day: 30),
+    null,
   ]);
   feuille.appendRow([
     TextCellValue('Rouge à lèvres mat'),
@@ -76,6 +82,7 @@ Uint8List modeleExcel() {
     const IntCellValue(3000),
     null,
     const IntCellValue(6),
+    null,
     null,
     null,
   ]);
@@ -101,6 +108,8 @@ String _normaliser(String s) {
 String? _cle(String titre) {
   final t = _normaliser(titre);
   if (t.isEmpty) return null;
+  // Testé en premier : « Photo du produit » ne doit pas être pris pour le nom.
+  if (t.startsWith('photo') || t.startsWith('image') || t.contains('lien photo')) return 'photo';
   if (t.contains('gros')) return 'gros';
   if (t.contains('achat') || t.contains('revient')) return 'achat';
   if (t.contains('vente') || t == 'prix' || t.contains('prix unitaire')) return 'vente';
@@ -151,6 +160,14 @@ DateTime? _date(String s) {
   final n = int.tryParse(s);
   if (n != null && n > 30000 && n < 80000) return DateTime(1899, 12, 30).add(Duration(days: n));
   return null;
+}
+
+/// Lien de photo : seulement une adresse http(s), sinon on l'ignore.
+String? _lien(String s) {
+  final t = s.trim();
+  final u = Uri.tryParse(t);
+  if (u == null || !(u.scheme == 'http' || u.scheme == 'https') || u.host.isEmpty) return null;
+  return t;
 }
 
 /// Code-barres : Excel transforme souvent 4005900123456 en 4.0059E+12 ; on récupère les chiffres.
@@ -234,6 +251,7 @@ List<LigneImport> lireFichier(Uint8List octets, String nomFichier) {
       stock: stock,
       stockMin: _nombre(val(l, 'min')),
       peremption: peremption,
+      photo: _lien(val(l, 'photo')),
       erreurs: erreurs,
     ));
   }

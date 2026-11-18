@@ -1,5 +1,6 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
 
 import '../../data/produits_repo.dart';
 import '../../services/erreurs.dart';
@@ -64,6 +65,23 @@ class _ImportPageState extends State<ImportPage> {
     }
   }
 
+  /// Récupère la photo d'un lien et la range avec les autres photos de la cliente.
+  /// Si l'envoi échoue (pas d'internet…), on garde le lien tel quel ;
+  /// si le lien ne mène pas à une image, pas de photo. Ne bloque jamais l'import.
+  Future<String?> _photoDepuisLien(String lien) async {
+    try {
+      final r = await http.get(Uri.parse(lien)).timeout(const Duration(seconds: 20));
+      final type = (r.headers['content-type'] ?? '').toLowerCase();
+      if (r.statusCode != 200 || r.bodyBytes.isEmpty || !type.startsWith('image/')) return null;
+      if (r.bodyBytes.length > 5 * 1024 * 1024) return lien;
+      final ext = type.contains('png') ? 'png' : (type.contains('webp') ? 'webp' : 'jpg');
+      return await _repo.envoyerPhoto(r.bodyBytes, ext);
+    } catch (e) {
+      debugPrint('Photo non récupérée ($lien) : $e');
+      return lien;
+    }
+  }
+
   /// Produit déjà enregistré : même code-barres, sinon même nom + variante.
   Produit? _existant(LigneImport l) {
     String cle(String n, String? v) => '${n.trim().toLowerCase()}|${(v ?? '').trim().toLowerCase()}';
@@ -83,7 +101,7 @@ class _ImportPageState extends State<ImportPage> {
       _fait = 0;
       _erreur = null;
     });
-    var crees = 0, majs = 0, ignores = 0;
+    var crees = 0, majs = 0, ignores = 0, photos = 0;
     try {
       final categories = {for (final c in await _repo.categories()) c.nom.trim().toLowerCase(): c.id};
       for (final l in valides) {
@@ -96,13 +114,19 @@ class _ImportPageState extends State<ImportPage> {
         if (ancien != null && !_mettreAJour) {
           ignores++;
         } else {
+          // Photo : on garde celle déjà en place ; sinon on prend celle du fichier.
+          var photo = ancien?.photoUrl;
+          if (photo == null && l.photo != null) {
+            photo = await _photoDepuisLien(l.photo!);
+            if (photo != null) photos++;
+          }
           final id = await _repo.enregistrer(Produit(
             id: ancien?.id,
             nom: l.nom,
             marque: l.marque ?? ancien?.marque,
             variante: l.variante ?? ancien?.variante,
             codeBarres: l.codeBarres ?? ancien?.codeBarres,
-            photoUrl: ancien?.photoUrl,
+            photoUrl: photo,
             prixAchat: l.prixAchat ?? ancien?.prixAchat ?? 0,
             prixVente: l.prixVente ?? ancien?.prixVente ?? 0,
             prixGros: l.prixGros ?? ancien?.prixGros,
@@ -133,6 +157,7 @@ class _ImportPageState extends State<ImportPage> {
             '$crees produit${crees > 1 ? 's' : ''} créé${crees > 1 ? 's' : ''}',
             if (majs > 0) '$majs mis à jour',
             if (ignores > 0) '$ignores déjà présents, laissés tels quels',
+            if (photos > 0) '$photos photo${photos > 1 ? 's' : ''} ajoutée${photos > 1 ? 's' : ''}',
           ].join('\n')),
           actions: [TextButton(onPressed: () => Navigator.pop(ctx), child: const Text('Voir mes produits'))],
         ),
