@@ -1,0 +1,300 @@
+11-18 11:31:58.538  4159  4171 W err     : java.lang.IllegalArgumentException: Component class com.google.android.apps.docs.editors.shared.documentcreation.WidgetDocumentCreatorActivity does not exist in com.google.android.apps.docs
+11-18 11:31:58.538  4159  4171 W err     : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3015)
+11-18 11:31:58.538  4159  4171 W err     : 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:31:58.538  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:31:58.538  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:31:58.538  4159  4171 W err     : Error changing state for com.google.android.apps.docs.editors.shared.documentcreation.WidgetDocumentCreatorActivity
+11-18 11:31:58.538  4159  4171 W err     : java.lang.IllegalArgumentException: Component class com.google.android.apps.docs.editors.shared.documentcreation.WidgetDocumentCreatorActivity does not exist in com.google.android.apps.docs
+11-18 11:31:58.538  4159  4171 W err     : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3015)
+11-18 11:31:58.538  4159  4171 W err     : 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:31:58.538  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:31:58.538  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:31:58.539  4159  4171 W err     : Error changing state for com.google.android.apps.docs.editors.shared.documentcreation.ExternalDocumentCreatorActivity
+11-18 11:31:58.539  4159  4171 W err     : java.lang.IllegalArgumentException: Component class com.google.android.apps.docs.editors.shared.documentcreation.ExternalDocumentCreatorActivity does not exist in com.google.android.apps.docs
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3015)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:31:58.539  4159  4171 W err     : Error changing state for com.google.android.apps.docs.editors.shared.documentcreation.ExternalDocumentCreatorActivity
+11-18 11:31:58.539  4159  4171 W err     : java.lang.IllegalArgumentException: Component class com.google.android.apps.docs.editors.shared.documentcreation.ExternalDocumentCreatorActivity does not exist in com.google.android.apps.docs
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3015)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:31:58.539  4159  4171 W err     : Error changing state for com.google.android.apps.docs.editors.shared.widgets.NewDocumentWidgetActivity
+11-18 11:31:58.539  4159  4171 W err     : java.lang.IllegalArgumentException: Component class com.google.android.apps.docs.editors.shared.widgets.NewDocumentWidgetActivity does not exist in com.google.android.apps.docs
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3015)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:31:58.539  4159  4171 W err     : Error changing state for com.google.android.apps.docs.editors.shared.widgets.NewDocumentWidgetActivity
+11-18 11:31:58.539  4159  4171 W err     : java.lang.IllegalArgumentException: Component class com.google.android.apps.docs.editors.shared.widgets.NewDocumentWidgetActivity does not exist in com.google.android.apps.docs
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3015)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:31:58.539  4159  4171 W err     : Error changing state for com.google.android.apps.docs.editors.shared.export.FileContentProvider
+11-18 11:31:58.539  4159  4171 W err     : java.lang.IllegalArgumentException: Component class com.google.android.apps.docs.editors.shared.export.FileContentProvider does not exist in com.google.android.apps.docs
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3015)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:31:58.539  4159  4171 W err     : Error changing state for com.google.android.apps.docs.editors.shared.export.FileContentProvider
+11-18 11:31:58.539  4159  4171 W err     : java.lang.IllegalArgumentException: Component class com.google.android.apps.docs.editors.shared.export.FileContentProvider does not exist in com.google.android.apps.docs
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3015)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:31:58.539  4159  4171 W err     : Error changing state for com.google.android.apps.docs.editors.shared.copypaste.AndroidClipboardContentProvider
+11-18 11:31:58.539  4159  4171 W err     : java.lang.IllegalArgumentException: Component class com.google.android.apps.docs.editors.shared.copypaste.AndroidClipboardContentProvider does not exist in com.google.android.apps.docs
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3015)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:31:58.539  4159  4171 W err     : Error changing state for com.google.android.apps.docs.editors.shared.copypaste.AndroidClipboardContentProvider
+11-18 11:31:58.539  4159  4171 W err     : java.lang.IllegalArgumentException: Component class com.google.android.apps.docs.editors.shared.copypaste.AndroidClipboardContentProvider does not exist in com.google.android.apps.docs
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3015)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:31:58.539  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:31:58.540  4159  4171 W err     : Error changing state for com.google.android.apps.docs.editors.shared.copypaste.AndroidImageContentProvider
+11-18 11:31:58.540  4159  4171 W err     : java.lang.IllegalArgumentException: Component class com.google.android.apps.docs.editors.shared.copypaste.AndroidImageContentProvider does not exist in com.google.android.apps.docs
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3015)
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:31:58.540  4159  4171 W err     : Error changing state for com.google.android.apps.docs.editors.shared.copypaste.AndroidImageContentProvider
+11-18 11:31:58.540  4159  4171 W err     : java.lang.IllegalArgumentException: Component class com.google.android.apps.docs.editors.shared.copypaste.AndroidImageContentProvider does not exist in com.google.android.apps.docs
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3015)
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:31:58.540  4159  4171 W err     : Error changing state for com.google.android.apps.docs.editors.shared.inserttool.clipboard.InsertToolClipboardContentProvider
+11-18 11:31:58.540  4159  4171 W err     : java.lang.IllegalArgumentException: Component class com.google.android.apps.docs.editors.shared.inserttool.clipboard.InsertToolClipboardContentProvider does not exist in com.google.android.apps.docs
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3015)
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:31:58.540  4159  4171 W err     : Error changing state for com.google.android.apps.docs.editors.shared.inserttool.clipboard.InsertToolClipboardContentProvider
+11-18 11:31:58.540  4159  4171 W err     : java.lang.IllegalArgumentException: Component class com.google.android.apps.docs.editors.shared.inserttool.clipboard.InsertToolClipboardContentProvider does not exist in com.google.android.apps.docs
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3015)
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:31:58.540  4159  4171 W err     : Error changing state for com.google.android.apps.docs.editors.shared.inserttool.clipboard.InsertToolImageContentProvider
+11-18 11:31:58.540  4159  4171 W err     : java.lang.IllegalArgumentException: Component class com.google.android.apps.docs.editors.shared.inserttool.clipboard.InsertToolImageContentProvider does not exist in com.google.android.apps.docs
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3015)
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:31:58.540  4159  4171 W err     : Error changing state for com.google.android.apps.docs.editors.shared.inserttool.clipboard.InsertToolImageContentProvider
+11-18 11:31:58.540  4159  4171 W err     : java.lang.IllegalArgumentException: Component class com.google.android.apps.docs.editors.shared.inserttool.clipboard.InsertToolImageContentProvider does not exist in com.google.android.apps.docs
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3015)
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:31:58.540  4159  4171 W err     : Error changing state for com.google.android.apps.docs.editors.kix.conversion.KixOnlineImportActivity
+11-18 11:31:58.540  4159  4171 W err     : java.lang.IllegalArgumentException: Component class com.google.android.apps.docs.editors.kix.conversion.KixOnlineImportActivity does not exist in com.google.android.apps.docs
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3015)
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:31:58.540  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:31:58.541  4159  4171 W err     : Error changing state for com.google.android.apps.docs.editors.kix.conversion.KixOnlineImportActivity
+11-18 11:31:58.541  4159  4171 W err     : java.lang.IllegalArgumentException: Component class com.google.android.apps.docs.editors.kix.conversion.KixOnlineImportActivity does not exist in com.google.android.apps.docs
+11-18 11:31:58.541  4159  4171 W err     : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3015)
+11-18 11:31:58.541  4159  4171 W err     : 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:31:58.541  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:31:58.541  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:31:58.541  4159  4171 W err     : Error changing state for com.google.android.apps.docs.editors.ritz.conversion.RitzOnlineImportActivity
+11-18 11:31:58.541  4159  4171 W err     : java.lang.IllegalArgumentException: Component class com.google.android.apps.docs.editors.ritz.conversion.RitzOnlineImportActivity does not exist in com.google.android.apps.docs
+11-18 11:31:58.541  4159  4171 W err     : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3015)
+11-18 11:31:58.541  4159  4171 W err     : 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:31:58.541  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:31:58.541  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:31:58.541  4159  4171 W err     : Error changing state for com.google.android.apps.docs.editors.ritz.conversion.RitzOnlineImportActivity
+11-18 11:31:58.541  4159  4171 W err     : java.lang.IllegalArgumentException: Component class com.google.android.apps.docs.editors.ritz.conversion.RitzOnlineImportActivity does not exist in com.google.android.apps.docs
+11-18 11:31:58.541  4159  4171 W err     : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3015)
+11-18 11:31:58.541  4159  4171 W err     : 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:31:58.541  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:31:58.541  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:31:58.541  4159  4171 W err     : Error changing state for com.google.android.apps.docs.editors.punch.conversion.PunchOnlineImportActivity
+11-18 11:31:58.541  4159  4171 W err     : java.lang.IllegalArgumentException: Component class com.google.android.apps.docs.editors.punch.conversion.PunchOnlineImportActivity does not exist in com.google.android.apps.docs
+11-18 11:31:58.541  4159  4171 W err     : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3015)
+11-18 11:31:58.541  4159  4171 W err     : 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:31:58.541  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:31:58.541  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:31:58.541  4159  4171 W err     : Error changing state for com.google.android.apps.docs.editors.punch.conversion.PunchOnlineImportActivity
+11-18 11:31:58.541  4159  4171 W err     : java.lang.IllegalArgumentException: Component class com.google.android.apps.docs.editors.punch.conversion.PunchOnlineImportActivity does not exist in com.google.android.apps.docs
+11-18 11:31:58.541  4159  4171 W err     : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3015)
+11-18 11:31:58.541  4159  4171 W err     : 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:31:58.541  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:31:58.541  4159  4171 W err     : 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:31:58.643  1693  1999 W CorpusConfigHelper: android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-18 11:31:58.643  1693  1999 W CorpusConfigHelper: 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-18 11:31:58.851  1693  2004 W CorpusConfigHelper: android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-18 11:31:58.851  1693  2004 W CorpusConfigHelper: 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-18 11:31:59.060   485   844 W ActivityManager: Exception when unbinding service com.google.android.gms/.nearby.exposurenotification.WakeUpService
+11-18 11:31:59.060   485   844 W ActivityManager: android.os.DeadObjectException
+11-18 11:31:59.060   485   844 W ActivityManager: Exception when unbinding service com.google.android.gms/.chimera.GmsBoundBrokerService
+11-18 11:31:59.060   485   844 W ActivityManager: android.os.DeadObjectException
+11-18 11:31:59.216  1593  2147 W ModernMediaScanner: Failed to apply ContentProviderOperation(type=insert uri=content://media/internal/file values={instance_id=null, compilation=null, disc_number=0, duration=4383, is_ringtone=0, album_artist=null, resolution=null, orientation=null, artist=pdx, author=null, height=null, is_drm=0, is_audiobook=0, date_modified=1725920748, writer=null, composer=null, _modifier=3, is_recording=0, datetaken=null, mime_type=audio/ogg, is_notification=1, bitrate=96000, cd_track_number=0, xmp=[], year=null, _data=/product/media/audio/notifications/vega.ogg, _size=29476, album=Unknown, genre=Unknown, is_alarm=0, title=Vega, track=0, width=null, is_music=0, document_id=null, is_podcast=0, capture_framerate=null, num_tracks=1, original_document_id=null, media_type=2} exceptionAllowed)
+11-18 11:31:59.216  1593  2147 W ModernMediaScanner: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: files._data (code 2067 SQLITE_CONSTRAINT_UNIQUE)
+11-18 11:31:59.216  1593  2147 W ModernMediaScanner: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+11-18 11:31:59.216  1593  2147 W ModernMediaScanner: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:961)
+11-18 11:31:59.216  1593  2147 W ModernMediaScanner: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:790)
+11-18 11:31:59.216  1593  2147 W ModernMediaScanner: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:89)
+11-18 11:31:59.216  1593  2147 W ModernMediaScanner: 	at com.android.providers.media.util.SQLiteQueryBuilder.insert(SQLiteQueryBuilder.java:611)
+11-18 11:31:59.216  1593  2147 W ModernMediaScanner: 	at com.android.providers.media.util.SQLiteQueryBuilder.lambda$insert$1(SQLiteQueryBuilder.java:575)
+11-18 11:31:59.216  1593  2147 W ModernMediaScanner: 	at com.android.providers.media.util.SQLiteQueryBuilder.$r8$lambda$J8sHyRt4f9G-jpErUkeO-jG4Hmw(Unknown Source:0)
+11-18 11:31:59.216  1593  2147 W ModernMediaScanner: 	at com.android.providers.media.util.SQLiteQueryBuilder$$ExternalSyntheticLambda2.apply(Unknown Source:6)
+11-18 11:31:59.216  1593  2147 W ModernMediaScanner: 	at com.android.providers.media.util.SQLiteQueryBuilder.insert(SQLiteQueryBuilder.java:574)
+11-18 11:31:59.239  4233  4233 D StrictMode: StrictMode policy violation: android.os.strictmode.NonSdkApiUsedViolation: Landroid/database/sqlite/SQLiteDatabase;->getThreadSession()Landroid/database/sqlite/SQLiteSession;
+11-18 11:31:59.240  4233  4233 D StrictMode: StrictMode policy violation: android.os.strictmode.NonSdkApiUsedViolation: Landroid/database/sqlite/SQLiteSession;->beginTransaction(ILandroid/database/sqlite/SQLiteTransactionListener;ILandroid/os/CancellationSignal;)V
+11-18 11:31:59.403  4233  4233 D StrictMode: Caused by: java.lang.IllegalAccessException: Tried to access visual service WindowManager from a non-visual Context:com.google.android.location.internal.GoogleLocationManagerService@12d915c
+11-18 11:31:59.403  4233  4233 E ContextImpl: java.lang.IllegalAccessException: Tried to access visual service WindowManager from a non-visual Context:com.google.android.location.internal.GoogleLocationManagerService@12d915c
+11-18 11:31:59.747  1693  1999 W CorpusConfigHelper: android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-18 11:31:59.747  1693  1999 W CorpusConfigHelper: 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-18 11:31:59.807  4233  4268 W GmsPipelineLogger: java.lang.NullPointerException
+11-18 11:31:59.990  1693  1999 W CorpusConfigHelper: android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-18 11:31:59.990  1693  1999 W CorpusConfigHelper: 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-18 11:32:00.227   485  4409 I BootReceiver: Checking for fsck errors
+11-18 11:32:00.380  1435  1464 I DialerCallRecordingInfoStorageAsyncSqlite: com.android.dialer.callrecording.impl.storage.CallRecordingInfoStorageAsyncSqlite.deleteCallLogInitiated:477 enter
+11-18 11:32:00.410  4233  4268 I SemanticLocation: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+11-18 11:32:00.410  4233  4268 I SemanticLocation: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-18 11:32:00.475  1820  1833 D StrictMode: StrictMode policy violation: android.os.strictmode.SqliteObjectLeakedViolation: Finalizing a Cursor that has not been deactivated or closed. database = /data/user/0/com.android.providers.contacts/databases/contacts2.db, table = raw_contacts, query = SELECT contacts_view._id AS _id, contacts_view.display_name AS display_name, contacts_view.photo_thumb_uri AS photo_thumb_uri, data1 AS number, data2 AS type, data3 AS label, contacts_view.lookup AS lookup FROM raw_contacts JOIN view_contacts as contacts_view ON (contacts_view._id = raw_contacts.contact_id) JOIN (SELECT data_id,normalized_number FROM phone_lookup WHERE (phone_lookup.min_match = '7654321')) AS lookup ON lookup.data_id=data._id JOIN data ON data.raw_contact_id=raw_contacts._id WHERE (PHONE_NUMBERS_EQUAL(data.data1, '+15551234567', 0, 7)) ORDER BY  length(lookup.normalized_number) DESC
+11-18 11:32:00.475  1820  1833 D StrictMode: 	at android.os.StrictMode.onSqliteObjectLeaked(StrictMode.java:2185)
+11-18 11:32:00.475  1820  1833 D StrictMode: 	at android.database.sqlite.SQLiteCursor.finalize(SQLiteCursor.java:282)
+11-18 11:32:00.476  1820  1833 D StrictMode: 	at android.database.sqlite.SQLiteCursor.finalize(SQLiteCursor.java:291)
+11-18 11:32:00.476  1820  1833 D StrictMode: 	at android.database.sqlite.SQLiteCursor.<init>(SQLiteCursor.java:98)
+11-18 11:32:00.476  1820  1833 D StrictMode: 	at android.database.sqlite.SQLiteDirectCursorDriver.query(SQLiteDirectCursorDriver.java:52)
+11-18 11:32:00.476  1820  1833 D StrictMode: 	at android.database.sqlite.SQLiteDatabase.rawQueryWithFactory(SQLiteDatabase.java:1712)
+11-18 11:32:00.476  1820  1833 D StrictMode: 	at android.database.sqlite.SQLiteQueryBuilder.query(SQLiteQueryBuilder.java:592)
+11-18 11:32:00.482  4233  4371 I SemanticLocation: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+11-18 11:32:00.482  4233  4371 I SemanticLocation: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-18 11:32:00.856  1593  1775 W MediaProvider: java.io.IOException: Failed to update quota type for /storage/emulated/0/Android
+11-18 11:32:00.857  1593  1775 W MediaProvider: java.io.IOException: Failed to update quota type for /storage/emulated/0/Android/media
+11-18 11:32:00.901  4470  4520 I c.acve  : Obtained writable database SQLiteDatabase/172179964 instance with path /data/user/0/com.google.android.calendar/databases/cal_v2a
+11-18 11:32:00.924  4314  4437 E Vision  : Couldn't read checkbot setting: android.provider.Settings$SettingNotFoundException: multi_cb
+11-18 11:32:00.948  4314  4445 W ConfigFileUtils: Failed to read asset ChimeraModuleSetList.pb: java.io.FileNotFoundException: ChimeraModuleSetList.pb
+11-18 11:32:00.958   989   989 W Telephony: registerMmTelCapabilityCallback: registration failed, no ImsService available. Exception: ImsService is not available for the subscription specified. (code: 1)
+11-18 11:32:01.018   989   989 W Telephony: registerImsRegistrationCallback: registration failed, no ImsService available. Exception: ImsService is not available for the subscription specified. (code: 1)
+11-18 11:32:01.095   918   958 E SystemServiceRegistry: android.os.ServiceManager$ServiceNotFoundException: No service published for: ethernet
+11-18 11:32:01.133   989   989 W Telephony: registerMmTelCapabilityCallback: registration failed, no ImsService available. Exception: ImsService is not available for the subscription specified. (code: 1)
+11-18 11:32:01.254  4233  4280 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 11:32:01.257  4314  4492 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 11:32:01.298  4233  4373 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 11:32:01.336  4314  4492 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 11:32:01.341  4233  4373 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 11:32:01.347   989   989 W Telephony: registerMmTelCapabilityCallback: registration failed, no ImsService available. Exception: ImsService is not available for the subscription specified. (code: 1)
+11-18 11:32:01.385  4314  4493 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 11:32:01.431  4233  4280 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 11:32:01.447  4314  4493 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 11:32:01.822  4233  4262 E bwfc    : Phenotype API error. Event # edax@9a7d34c8, EventCode: 32 [CONTEXT service_id=51 ]
+11-18 11:32:01.822  4233  4262 W AsyncOperation: OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
+11-18 11:32:02.066   298   298 W WVCdm   : [oemcrypto_adapter_dynamic.cpp(1589):OEMCrypto_InitializeAndCheckKeybox] Keybox error: 25. Falling back to L3.
+11-18 11:32:02.135  4314  4492 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 11:32:02.346  4314  4448 E ChimeraUPLUtils: Failed to invoke updateComplete: android.os.DeadObjectException
+11-18 11:32:02.410  4314  4492 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 11:32:02.597  4314  4448 E ChimeraUPLUtils: Failed to invoke updateComplete: android.os.DeadObjectException
+11-18 11:32:03.114  4233  4268 W GLSUser : [AppCertManager] Exception while requesting key: 
+11-18 11:32:03.114  4233  4268 W GLSUser : java.util.concurrent.ExecutionException: avvw: Parse Proto Exception.
+11-18 11:32:03.114  4233  4268 W GLSUser : Caused by: avvw: Parse Proto Exception.
+11-18 11:32:03.155  4233  4284 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 11:32:03.541   989  1410 D MmsSmsDatabaseHelper: [MmsSmsDb] tableName: threads hasAutoIncrement: CREATE TABLE threads (_id INTEGER PRIMARY KEY AUTOINCREMENT,date INTEGER DEFAULT 0,message_count INTEGER DEFAULT 0,recipient_ids TEXT,snippet TEXT,snippet_cs INTEGER DEFAULT 0,read INTEGER DEFAULT 1,archived INTEGER DEFAULT 0,type INTEGER DEFAULT 0,error INTEGER DEFAULT 0,has_attachment INTEGER DEFAULT 0) result: true
+11-18 11:32:03.680  3059  3151 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 11:32:03.680  3059  3151 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 11:32:03.680  3059  3151 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 11:32:03.680  3059  3151 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 11:32:03.680  3059  3151 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 11:32:03.680  3059  3151 W SQLiteLog: (28) double-quoted string literal: ""
+11-18 11:32:03.734  4233  4284 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 11:32:04.210  4470  4470 W GnpSdk  : java.lang.NullPointerException: Unable to get GrowthKit Component from host app: com.google.android.calendar
+11-18 11:32:04.859  4314  4522 E SQLiteLog: (1) no such table: Alarm_cross_device_com.google.android.deskclock_seq_table in "SELECT * FROM [Alarm_cross_device_com.google.android.deskclock_seq_table] WHERE seqno>0 AND tag IS NULL ORDER BY seqno LIMIT 20"
+11-18 11:32:04.859  4314  4522 E Icing   : Cursor call threw an exception: no such table: Alarm_cross_device_com.google.android.deskclock_seq_table (code 1 SQLITE_ERROR): , while compiling: SELECT * FROM [Alarm_cross_device_com.google.android.deskclock_seq_table] WHERE seqno>0 AND tag IS NULL ORDER BY seqno LIMIT 20
+11-18 11:32:04.860  4314  4522 E SQLiteLog: (1) no such table: Stopwatch_cross_device_com.google.android.deskclock_seq_table in "SELECT * FROM [Stopwatch_cross_device_com.google.android.deskclock_seq_table] WHERE seqno>0 AND tag IS NULL ORDER BY seqno LIMIT
+11-18 11:32:04.860  4314  4522 E Icing   : Cursor call threw an exception: no such table: Stopwatch_cross_device_com.google.android.deskclock_seq_table (code 1 SQLITE_ERROR): , while compiling: SELECT * FROM [Stopwatch_cross_device_com.google.android.deskclock_seq_table] WHERE seqno>0 AND tag IS NULL ORDER BY seqno LIMIT 20
+11-18 11:32:04.864  4233  4371 E bwel    : java.util.concurrent.TimeoutException: Timed out waiting for Task
+11-18 11:32:05.289  1693  1693 W SnapshotHandler: java.io.FileNotFoundException: /data/user/0/com.google.android.googlequicksearchbox/files/phenotype/shared/com.google.android.libraries.notifications#com.google.android.googlequicksearchbox.pb: open failed: ENOENT (No such file or directory)
+11-18 11:32:05.289  1693  1693 W SnapshotHandler: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-18 11:32:05.380  1693  2379 W SnapshotHandler: java.io.FileNotFoundException: /data/user/0/com.google.android.googlequicksearchbox/files/phenotype/shared/com.google.android.libraries.notifications.platform#com.google.android.googlequicksearchbox.pb: open failed: ENOENT (No such file or directory)
+11-18 11:32:05.380  1693  2379 W SnapshotHandler: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-18 11:32:06.011  3059  3225 W RcsClientLib: Unexpected error when trying to unbind com.google.android.ims.rcsservice.businessinfo.IBusinessInfo: Service not registered: bwbs@d5d9658
+11-18 11:32:06.014  3059  3225 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: bwbs@d5d9658
+11-18 11:32:06.014  3059  3225 W RcsClientLib: Unexpected error when trying to unbind com.google.android.rcs.client.messaging.IMessaging: Service not registered: bwbs@f5fb096
+11-18 11:32:06.017  3059  3225 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: bwbs@f5fb096
+11-18 11:32:06.017  3059  3225 W RcsClientLib: Unexpected error when trying to unbind com.google.android.ims.rcsservice.transportcontrol.ITransportControl: Service not registered: bwbs@d41c004
+11-18 11:32:06.017  3059  3225 W RcsClientLib: java.lang.IllegalArgumentException: Service not registered: bwbs@d41c004
+11-18 11:32:06.118  1693  1693 E A       : onError
+11-18 11:32:06.118  1693  1693 E A       : com.google.android.apps.gsa.shared.speech.a.m: errorCode: 65561, engine: 2
+11-18 11:32:06.118  1693  1693 E A       : Caused by: com.google.android.apps.gsa.shared.speech.a.o: errorCode: 65586, engine: 2
+11-18 11:32:06.118  1693  1693 E A       : Caused by: com.google.android.apps.gsa.shared.speech.a.k: errorCode: 401, engine: 2
+11-18 11:32:06.872  4898  4950 E PhenotypeFlagCommitter: java.util.concurrent.TimeoutException: Timed out waiting for Task
+11-18 11:32:07.266   485   698 W FileUtils: android.system.ErrnoException: chmod failed: ENOENT (No such file or directory)
+11-18 11:32:07.390  1078  1452 E SystemServiceRegistry: android.os.ServiceManager$ServiceNotFoundException: No service published for: ethernet
+11-18 11:32:07.483  1078  1452 W BaseSearchIndex: Error initial controller
+11-18 11:32:08.601  5264  5290 E IndexablesProvider: Provider querying exception:
+11-18 11:32:08.601  5264  5290 E IndexablesProvider: java.lang.IllegalStateException: We should initialize FormFactorUtils before getting instance.
+11-18 11:32:09.386  5157  5183 W SQLiteLog: (28) double-quoted string literal: "com.android.cellbroadcastreceiver"
+11-18 11:32:09.386  5157  5183 W SQLiteLog: (28) double-quoted string literal: "com.android.emergency"
+11-18 11:32:09.386  5157  5183 W SQLiteLog: (28) double-quoted string literal: "com.android.permissioncontroller"
+11-18 11:32:09.386  5157  5183 W SQLiteLog: (28) double-quoted string literal: "com.android.permissioncontroller.role"
+11-18 11:32:09.386  5157  5183 W SQLiteLog: (28) double-quoted string literal: "com.android.permissioncontroller.safetycenter"
+11-18 11:32:09.386  5157  5183 W SQLiteLog: (28) double-quoted string literal: "com.android.settings"
+11-18 11:32:09.386  5157  5183 W SQLiteLog: (28) double-quoted string literal: "com.android.traceur"
+11-18 11:32:09.386  5157  5183 W SQLiteLog: (28) double-quoted string literal: "com.google.android.apps.gsa.opa.AssistantSettingsProvider"
+11-18 11:32:09.386  5157  5183 W SQLiteLog: (28) double-quoted string literal: "com.google.android.apps.messaging.settings.search"
+11-18 11:32:09.386  5157  5183 W SQLiteLog: (28) double-quoted string literal: "com.google.android.apps.nexuslauncher"
+11-18 11:32:09.386  5157  5183 W SQLiteLog: (28) double-quoted string literal: "com.google.android.apps.wellbeing"
+11-18 11:32:09.387  5157  5183 W SQLiteLog: (28) double-quoted string literal: "com.google.android.gms"
+11-18 11:32:09.387  5157  5183 W SQLiteLog: (28) double-quoted string literal: "com.google.android.gms.accountsettings.content"
+11-18 11:32:09.387  5157  5183 W SQLiteLog: (28) double-quoted string literal: "com.google.android.inputmethod.latin"
+11-18 11:32:09.387  5157  5183 W SQLiteLog: (28) double-quoted string literal: "com.google.android.marvin.talkback.preference.search.TalkBackSearchIndexablesProvider"
+11-18 11:32:09.387  5157  5183 W SQLiteLog: (28) double-quoted string literal: "com.google.android.settings.intelligence.provider.search"
+11-18 11:32:09.387  5157  5183 W SQLiteLog: (28) double-quoted string literal: "com.google.android.settings.intelligence.routines.impl"
+11-18 11:32:09.387  5157  5183 W SQLiteLog: (28) double-quoted string literal: "com.google.android.settings.intelligence.smartringer.impl"
+11-18 11:32:12.054   485  2293 E RecoverySnapshotStorage: Error reading snapshot for 10120 from disk
+11-18 11:32:12.054   485  2293 E RecoverySnapshotStorage: java.io.FileNotFoundException: /data/system/recoverablekeystore/snapshots/10120.xml: open failed: ENOENT (No such file or directory)
+11-18 11:32:12.054   485  2293 E RecoverySnapshotStorage: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-18 11:32:12.063   149   160 E keystore2: keystore2::error: In import_key.
+11-18 11:32:12.063   149   160 E keystore2:     3: Error::Rc(ResponseCode(4))
+11-18 11:32:12.068  4314  5366 W RecoverableKeyStoreGms: [WrappingKeyManager] InternalRecoveryServiceException during wrapping key generation [CONTEXT service_id=172 ]
+11-18 11:32:12.068  4314  5366 W RecoverableKeyStoreGms: android.security.keystore.recovery.InternalRecoveryServiceException: Failed to import secret key.
+11-18 11:32:12.068  4314  5366 W RecoverableKeyStoreGms: 	at android.security.keystore.recovery.RecoveryController.wrapUnexpectedServiceSpecificException(RecoveryController.java:773)
+11-18 11:32:12.068  4314  5366 W RecoverableKeyStoreGms: Caused by: android.os.ServiceSpecificException: Failed to import secret key. (code 22)
+11-18 11:32:12.068  4314  5366 W RecoverableKeyStoreGms: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3025)
+11-18 11:32:12.068  4314  5366 W RecoverableKeyStoreGms: 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:32:12.068  4314  5366 W RecoverableKeyStoreGms: 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:32:12.068  4314  5366 W RecoverableKeyStoreGms: 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:32:12.196  4233  4284 E dlpn    : RuntimeException while executing runnable dlqc{qze@854c3e4} with executor MoreExecutors.directExecutor()
+11-18 11:32:12.196  4233  4284 E dlpn    : java.lang.NullPointerException: Attempt to get length of null array
+11-18 11:32:13.019  4314  5366 W PeoplePU: java.lang.IllegalArgumentException: Unknown component: ComponentInfo{com.google.android.syncadapters.contacts/com.google.android.syncadapters.contacts.ProxyGalProvider}
+11-18 11:32:13.019  4314  5366 W PeoplePU: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3015)
+11-18 11:32:13.019  4314  5366 W PeoplePU: 	at android.os.Parcel.createException(Parcel.java:2995)
+11-18 11:32:13.019  4314  5366 W PeoplePU: 	at android.os.Parcel.readException(Parcel.java:2978)
+11-18 11:32:13.019  4314  5366 W PeoplePU: 	at android.os.Parcel.readException(Parcel.java:2920)
+11-18 11:32:13.027  4314  4445 W PeoplePU: android.content.pm.PackageManager$NameNotFoundException: ComponentInfo{com.google.android.gms/com.google.android.gms.people.sync.focus.ContactsSyncAdapterService}
+11-18 11:32:13.203  4233  4262 E bwfc    : Phenotype API error. Event # edax@8b5e7db8, EventCode: 5 [CONTEXT service_id=51 ]
+11-18 11:32:13.203  4233  4262 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.dtdi#com.google.android.gms(change count changed - expected 1  but was 0), resolution=null}]
+11-18 11:32:13.240  4233  4274 E bwfc    : Phenotype API error. Event # edax@cf54758e, EventCode: 5 [CONTEXT service_id=51 ]
+11-18 11:32:13.240  4233  4274 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.personalsafety(change count changed - expected 1  but was 0), resolution=null}]
+11-18 11:32:13.644  4233  4373 I SemanticLocation: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+11-18 11:32:13.644  4233  4373 I SemanticLocation: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-18 11:32:13.719  4233  4373 I SemanticLocation: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+11-18 11:32:13.719  4233  4373 I SemanticLocation: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-18 11:32:13.758  4314  4445 E Vision  : Couldn't read checkbot setting: android.provider.Settings$SettingNotFoundException: multi_cb
+11-18 11:32:13.869  4314  5364 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 11:32:13.997  4314  5364 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-18 11:32:16.057  4233  4367 W GLSUser : [AppCertManager] Exception while requesting key: 
+11-18 11:32:16.057  4233  4367 W GLSUser : java.util.concurrent.ExecutionException: avvw: Parse Proto Exception.
+11-18 11:32:16.057  4233  4367 W GLSUser : Caused by: avvw: Parse Proto Exception.
+11-18 11:32:17.110  1078  1452 W SliceDataConverter: java.lang.IllegalStateException: Invalid preference controller: com.android.settings.network.NetworkProviderSimsCategoryController
+11-18 11:32:17.110  1078  1452 W SliceDataConverter: Caused by: java.lang.NoSuchMethodException: com.android.settings.network.NetworkProviderSimsCategoryController.<init> [class android.content.Context, class java.lang.String]
+11-18 11:32:17.163  1078  1452 E SystemServiceRegistry: android.os.ServiceManager$ServiceNotFoundException: No service published for: ethernet
+11-18 11:32:17.196  1078  1452 W SliceDataConverter: java.lang.IllegalStateException: Invalid preference controller: com.android.settings.accessibility.VibrationMainSwitchPreferenceController
+11-18 11:32:17.196  1078  1452 W SliceDataConverter: Caused by: java.lang.reflect.InvocationTargetException
+11-18 11:32:17.196  1078  1452 W SliceDataConverter: Caused by: java.lang.RuntimeException: Can't create handler inside thread Thread[binder:1078_5,5,main] that has not called Looper.prepare()
+11-18 11:32:17.271  1078  1452 W SliceDataConverter: java.lang.IllegalStateException: Invalid preference controller: com.android.settings.applications.appinfo.ManageAppLocalePreferenceController
+11-18 11:32:17.271  1078  1452 W SliceDataConverter: Caused by: java.lang.ClassNotFoundException: com.android.settings.applications.appinfo.ManageAppLocalePreferenceController
+11-18 11:32:17.271  1078  1452 W SliceDataConverter: Caused by: java.lang.ClassNotFoundException: com.android.settings.applications.appinfo.ManageAppLocalePreferenceController
+11-18 11:32:18.386   485  5875 E StatsCompanionService: android.content.pm.PackageManager$NameNotFoundException: com.google.android.trichromelibrary
+11-18 11:32:19.011   485  2288 W SoundTriggerService: error onStop(): Model 9f6ad62a-1f0b-11e7-87c5-40a8f03d3f15 has no stats available
